@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AK & ALPHA | Trading and Business</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600&display=swap">
+<style>
+:root{--bg:#f1f4f0;--ink:#12261d;--green:#0f3d2e;--brass:#b98a1f;--mute:#4c5f55;--line:#c9d3cc;--on-green:#f1f4f0;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1612;--ink:#e8efe9;--green:#134a38;--brass:#e0b04a;--mute:#9fb3a8;--line:#27403a}}
+:root[data-theme="dark"]{--bg:#0b1612;--ink:#e8efe9;--green:#134a38;--brass:#e0b04a;--mute:#9fb3a8;--line:#27403a}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",system-ui,sans-serif;line-height:1.55}
+.wrap{max-width:46rem;margin:0 auto;padding:0 22px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;max-width:46rem;margin:0 auto}
+nav b{font-family:"Archivo Black",Arial,sans-serif}
+nav a{color:var(--ink);text-decoration:none;font-weight:600}
+.hero{background:var(--green);color:var(--on-green);padding:56px 0 0}
+.hero h1{font-family:"Archivo Black","Arial Black",sans-serif;font-size:clamp(3.2rem,15vw,6.5rem);line-height:.95;margin:0;letter-spacing:-.02em}
+.hero h1 i{font-style:normal;color:var(--brass)}
+.hero p{font-size:1.15rem;max-width:30rem;margin:18px 0 28px}
+.btn{display:inline-block;background:var(--brass);color:#12261d;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;border:0;font:inherit;font-weight:600;cursor:pointer}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+.tick{margin-top:48px;border-top:1px solid rgba(255,255,255,.25);overflow:hidden;white-space:nowrap;padding:12px 0}
+.tick div{display:inline-block;animation:run 28s linear infinite;font-weight:600}
+.tick span{margin-right:34px}
+.tick em{font-style:normal;color:var(--brass);margin-right:8px}
+@keyframes run{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tick div{animation:none}}
+section{padding:54px 0 0}
+h2{font-family:"Archivo Black",Arial,sans-serif;font-size:1.8rem;margin:0 0 18px}
+.row{display:flex;gap:18px;justify-content:space-between;padding:16px 0;border-top:1px solid var(--line)}
+.row h3{margin:0;font-size:1.15rem;min-width:9rem}
+.row p{margin:0;color:var(--mute);max-width:24rem}
+ol{list-style:none;margin:0;padding:0;counter-reset:s}
+li{counter-increment:s;padding:14px 0 14px 46px;border-top:1px solid var(--line);position:relative}
+li::before{content:counter(s);position:absolute;left:0;top:12px;width:30px;height:30px;border-radius:50%;background:var(--green);color:var(--on-green);display:grid;place-items:center;font-weight:600}
+li b{display:block}
+li span{color:var(--mute)}
+.contact{background:var(--green);color:var(--on-green);margin-top:56px;padding:44px 0 36px}
+.contact p{margin:6px 0}
+.contact h2{color:var(--on-green)}
+#out{margin-top:14px;font-weight:600;color:var(--brass);min-height:1.5em}
+small{display:block;margin-top:26px;opacity:.7}
+@media (max-width:520px){.row{flex-direction:column;gap:4px}}
+</style>
+</head>
+<body>
+<header class="hero">
+<nav style="color:var(--on-green)"><b>AK &amp; ALPHA</b><a href="#contact" style="color:var(--on-green)">Contact</a></nav>
+<div class="wrap">
+<h1>AK <i>&amp;</i> ALPHA</h1>
+<p>Trading and business, done honestly. We source, supply and grow with you.</p>
+<a class="btn" href="#contact">Request a quote</a>
+</div>
+<div class="tick" aria-hidden="true"><div>
+<span><em>▲</em>General trading</span><span><em>▲</em>Wholesale supply</span><span><em>▲</em>Import &amp; export</span><span><em>▲</em>Business partnerships</span>
+<span><em>▲</em>General trading</span><span><em>▲</em>Wholesale supply</span><span><em>▲</em>Import &amp; export</span><span><em>▲</em>Business partnerships</span>
+</div></div>
+</header>
+
+<main class="wrap">
+<section>
+<h2>What we do</h2>
+<div class="row"><h3>General trading</h3><p>Buying and selling goods across categories, at fair and clear prices.</p></div>
+<div class="row"><h3>Wholesale supply</h3><p>Bulk orders for shops and businesses, delivered on schedule.</p></div>
+<div class="row"><h3>Import &amp; export</h3><p>Sourcing from trusted suppliers and handling the paperwork.</p></div>
+<div class="row"><h3>Business support</h3><p>Advice and partnerships for new and growing ventures.</p></div>
+</section>
+<section>
+<h2>How it works</h2>
+<ol>
+<li><b>Tell us what you need</b><span>Send the product, quantity and timeline.</span></li>
+<li><b>Get a clear quote</b><span>Price and delivery terms, written down.</span></li>
+<li><b>We deliver</b><span>Goods arrive as agreed, and we stay in touch.</span></li>
+</ol>
+</section>
+</main>
+
+<footer class="contact" id="contact">
+<div class="wrap">
+<h2>Talk to AK &amp; ALPHA</h2>
+<p>Phone: add your number here</p>
+<p>Email: add your email here</p>
+<p>Location: add your city here</p>
+<button class="btn" id="ping" style="margin-top:12px">Send an enquiry</button>
+<div id="out" aria-live="polite"></div>
+<small>Demo website. Text and contact details are placeholders.</small>
+</div>
+</footer>
+<script>
+document.getElementById("ping").onclick=function(){document.getElementById("out").textContent="Demo only: enquiries are not sent from this page."};
+</script>
+</body>
+</html>
